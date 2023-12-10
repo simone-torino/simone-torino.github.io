@@ -1,0 +1,98 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 525px;
+}
+
+.u-section-1 .u-list-1 {
+  margin-bottom: 60px;
+  margin-top: 17px;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
+  min-height: 419px;
+  grid-gap: 10px;
+}
+
+.u-section-1 .u-image-1 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  --radius: 23px;
+  background-image: url("images/ReseQ_MK1.png");
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 10px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,1);
+  margin: 336px 0 0;
+}
+
+.u-section-1 .u-image-2 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  --radius: 23px;
+  background-image: url("images/PongFPGA_img.png");
+  background-position: 50% 0%;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 10px;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,1);
+  margin: 336px 0 0;
+}
+
+.u-section-1 .u-image-3 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  --radius: 23px;
+  background-image: url("images/HVdetector_img.png");
+  background-position: 8.28% 50%;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 10px;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,1);
+  margin: 336px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-repeater-1 {
+    min-height: 344px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: repeat(2, calc(50% - 5px));
+    min-height: 806px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 1rem;
+  }
+}
